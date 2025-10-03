@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    color: white;
+    font-family: "Overlock";
+    font-style: italic;
+}
+
+pipi {
+    color: #6a289c #a946f5 #ffff00
+}
+
+
+header {
+    background-color: #6a289c;
+    height: 90px;
+    border-radius: 6vh;
+    margin: 10px;
+    align-content: center;
+    box-shadow: 8px 8px 18px black;
+
+
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    position: fixed;
+    z-index: 9999;
+    list-style: none;
+    gap: 4px;
+
+
+}
+
+nav li {
+    background-color: #fdfaff;
+    border-radius: 4vh;
+
+    padding: 6PX;
+    box-shadow: 8px 8px 18px black;
+
+}
+
+nav img {
+    width: 40px;
+}
+
+h1 {
+    margin-right: 20px;
+    text-align: end;
+    font-size: 50px;
+    font-style: italic;
+    letter-spacing: 10px;
+    text-shadow: 10px 2px 10px black;
+}
+
+h2 {
+    font-family: "Imperial Script";
+    font-size: 60px;
+    letter-spacing: 12px;
+    color: #6a289c;
+    border-radius: 20vh;
+    text-shadow: 2px -40px 4px #000000ad;
+}
+
+.box1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+
+}
+
+
+
+.bx1-1 {
+    background-size: cover;
+
+    border-radius: 4vh;
+    text-align: center;
+}
+
+
+
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 4vh;
+    gap: 10px;
+    padding: 10px;
+    margin: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bx2-1 {
+    color: black;
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 4vh;
+    border: solid 1px;
+    text-align: center;
+}
+
+.bx2-2 {
+    font-size: 30px;
+    color: black;
+    padding: 30px;
+    border-radius: 4vh;
+    border: solid 1px;
+    text-align: center;
+}
+
+.titulo {
+    background-color: #6a289c;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 9vh;
+    gap: 10px;
+    padding: 10px;
+    margin: 32px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px 10px 10px #000000dd;
+    font-family: "Imperial Script";
+    font-size: 80px;
+    letter-spacing: 8px;
+    font-style: normal;
+}
+
+.uñas {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4vh;
+}
+
+
+.ues {
+    grid-area: uña1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #6302addd;
+    padding: 10px;
+    border-radius: 4vh;
+    box-shadow: 12px 10px 10px #000000dd;
+}
+
+.ues :first-child {
+    font-family: "Imperial Script";
+    font-size: 48px;
+    font-style: normal;
+    letter-spacing: 8px;
+}
+
+.ugel {
+    grid-area: uña2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #6302addd;
+    padding: 10px;
+    border-radius: 4vh;
+    box-shadow: 12px 10px 10px #000000dd;
+
+}
+
+.ugel :first-child {
+    font-family: "Imperial Script";
+    font-size: 48px;
+    font-style: normal;
+    letter-spacing: 8px;
+
+}
+
+.uacc {
+    grid-area: uña3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #6302addd;
+    padding: 10px;
+    border-radius: 4vh;
+    box-shadow: 12px 10px 10px #000000dd;
+
+}
+
+.uacc :first-child {
+    font-family: "Imperial Script";
+    font-size: 40px;
+    font-style: normal;
+    letter-spacing: 4px;
+
+}
+
+.upg {
+    grid-area: uña4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #6302addd;
+    padding: 10px;
+    border-radius: 4vh;
+    box-shadow: 12px 10px 10px #000000dd;
+
+}
+
+.upg :first-child {
+    font-family: "Imperial Script";
+    font-size: 48px;
+    font-style: normal;
+    letter-spacing: 8px;
+
+}
+
+.ukp {
+    grid-area: uña5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #6302addd;
+    padding: 10px;
+    border-radius: 4vh;
+    box-shadow: 12px 10px 10px #000000dd;
+
+}
+
+.ukp :first-child {
+    font-family: "Imperial Script";
+    font-size: 48px;
+    font-style: normal;
+    letter-spacing: 8px;
+
+}
+
+@media (min-width:600px) {
+    .uñas {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "uña1 uña1 uña1 uña1 uña1"
+            "uña2 uña2 uña2 uña3 uña3"
+            "uña4 uña4 uña5 uña5 uña5"
+        ;
+    }
+}
