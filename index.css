@@ -259,4 +259,10 @@ h2 {
             "uña4 uña4 uña5 uña5 uña5"
         ;
     }
+
+    .titulo {
+        font-size: 80px;
+        letter-spacing: 8px;
+        margin: 28px;
+    }
 }
