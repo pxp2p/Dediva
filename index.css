@@ -123,13 +123,13 @@ h2 {
     border-radius: 9vh;
     gap: 10px;
     padding: 10px;
-    margin: 32px;
+    margin: 10px;
     justify-content: center;
     align-items: center;
     box-shadow: 12px 10px 10px #000000dd;
     font-family: "Imperial Script";
-    font-size: 80px;
-    letter-spacing: 8px;
+    font-size: 48px;
+    letter-spacing: 6px;
     font-style: normal;
     text-align: center;
 }
