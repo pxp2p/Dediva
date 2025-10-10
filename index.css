@@ -49,7 +49,7 @@ nav img {
 h1 {
     margin-right: 20px;
     text-align: end;
-    font-size: 50px;
+    font-size: 46px;
     font-style: italic;
     letter-spacing: 9px;
     text-shadow: 10px 2px 10px black;
@@ -57,7 +57,7 @@ h1 {
 
 h2 {
     font-family: "Imperial Script";
-    font-size: 54px;
+    font-size: 40px;
     letter-spacing: 8px;
     color: #6a289c;
     border-radius: 20vh;
@@ -125,15 +125,14 @@ h2 {
     justify-content: center;
     align-items: center;
     box-shadow: 12px 10px 10px #000000dd;
-    font-family: "Imperial Script";
-    font-size: 48px;
+    font-family: "Akaya Kanadaka";
+    font-size: 42px;
     letter-spacing: 6px;
     font-style: normal;
     text-align: center;
 }
 
 .uñas {
-
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -156,8 +155,8 @@ h2 {
 }
 
 .ues :first-child {
-    font-family: "Imperial Script";
-    font-size: 48px;
+    font-family: "Akaya Kanadaka";
+    font-size: 30px;
     font-style: normal;
     letter-spacing: 8px;
 }
@@ -176,8 +175,8 @@ h2 {
 }
 
 .ugel :first-child {
-    font-family: "Imperial Script";
-    font-size: 48px;
+    font-family: "Akaya Kanadaka";
+    font-size: 30px;
     font-style: normal;
     letter-spacing: 8px;
 
@@ -197,8 +196,8 @@ h2 {
 }
 
 .uacc :first-child {
-    font-family: "Imperial Script";
-    font-size: 40px;
+    font-family: "Akaya Kanadaka";
+    font-size: 30px;
     font-style: normal;
     letter-spacing: 4px;
 
@@ -218,8 +217,8 @@ h2 {
 }
 
 .upg :first-child {
-    font-family: "Imperial Script";
-    font-size: 48px;
+    font-family: "Akaya Kanadaka";
+    font-size: 30px;
     font-style: normal;
     letter-spacing: 8px;
 
@@ -239,11 +238,19 @@ h2 {
 }
 
 .ukp :first-child {
-    font-family: "Imperial Script";
-    font-size: 48px;
+    font-family: "Akaya Kanadaka";
+    font-size: 30px;
     font-style: normal;
     letter-spacing: 8px;
 
+}
+
+footer img {
+    width: 30px;
+}
+
+.patita {
+    background: linear-gradient(180deg, #6a289c, #a946f5);
 }
 
 @media (min-width:600px) {
@@ -258,6 +265,32 @@ h2 {
         ;
     }
 
+    h2 {
+        text-shadow: 2px -60px 4px #000000ad;
+        margin-top: 80px;
+
+    }
+
+    .ues :first-child {
+        font-size: 50px;
+    }
+
+    .uacc :first-child {
+        font-size: 50px;
+    }
+
+    .ugel :first-child {
+        font-size: 50px;
+    }
+
+    .ukp :first-child {
+        font-size: 50px;
+    }
+
+    .upg :first-child {
+        font-size: 50px;
+    }
+
     .titulo {
         font-size: 80px;
         letter-spacing: 8px;
@@ -269,6 +302,8 @@ h2 {
         letter-spacing: 28px;
     }
 }
+
+
 
 /*GALERIA=========================================*/
 
